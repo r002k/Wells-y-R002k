@@ -1,0 +1,148 @@
+@font-face {
+	font-family: principal;
+	src: url('principal.ttf');
+}
+
+body {
+    overflow: hidden;
+    height:1080px;
+    width:100%;
+}
+
+#logo {
+    position: absolute;
+    display: block;		
+	right: 25px;		
+	top: 40px;		
+	margin: 0px 0 0 0px;    	
+	opacity: 0.90;
+}
+
+#vida {
+    position: relative;
+	width: 35px;
+    height: 35px;
+    margin-right: 5px;
+    margin-top: 5px;		
+	opacity: 0.75;
+}
+
+#chaleco {
+    position: relative;
+	width: 35px;
+    height: 35px;
+    margin-right: 5px;
+    margin-top: 5px;		
+	opacity: 0.75;
+}
+
+#oxigeno {
+    position: relative;
+	width: 35px;
+    height: 35px;
+    margin-right: 5px;
+    margin-top: 5px;
+	opacity: 0.75;
+}
+
+#hambre {
+    position: relative;
+	width: 35px;
+    height: 35px;
+    margin-right: 5px;
+    margin-top: 5px;
+	opacity: 0.75;
+}
+
+#sed {
+    position: relative;
+	width: 35px;
+    height: 35px;
+    margin-right: 5px;
+    margin-top: 5px;
+	opacity: 0.75;
+}
+
+#stress {
+    position: relative;
+	width: 35px;
+    height: 35px;
+    margin-right: 5px;
+    margin-top: 5px;
+	opacity: 0.75;
+}
+
+#droga {
+    position: relative;
+	width: 35px;
+    height: 35px;
+    margin-right: 5px;
+    margin-top: 5px;
+	opacity: 0.75;
+}
+
+#police {
+    position: relative;
+	width: 35px;
+    height: 35px;
+    margin-right: 5px;
+    margin-top: 5px;
+	opacity: 0.75;
+}
+
+.icono {
+    position: absolute;
+    color:white;
+    margin-left: 9.5px;
+    margin-top: 9.5px;
+}
+
+.icono2 {
+    position: absolute;
+    color:white;
+    margin-left: 8.5px;
+    margin-top: 9.5px;
+}
+
+.icono3 {
+    position: absolute;
+    color:white;
+    margin-left: 8.5px;
+    margin-top: 8.5px;
+    font-size: 18px;
+}
+
+.estadisticas1 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200px;
+    bottom: 2.5%;
+    left: 16%;
+}
+
+.estadisticas2 {
+    position: absolute;
+    bottom: 0.5%;
+    left: 0.2%;
+}
+
+.estadisticas3 {
+    position: absolute;
+    bottom: 1.5%;
+    left: 24.5%;
+}
+
+#trabajo {
+    position: absolute;
+    top: 11%;
+    right: 1%;
+    text-align: right;
+}
+
+#trabajo span {
+    font-size: 25px;
+    color: white;
+    font-family: principal;
+}
